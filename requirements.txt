@@ -1,11 +1,27 @@
+# Essential Streamlit and UI components
 streamlit==1.31.1
+streamlit-folium==0.15.0
+
+# Data analysis
 pandas==2.2.1
-matplotlib==3.8.3
-opencv-python-headless==4.9.0.80
 numpy==1.26.4
-Pillow==10.2.0
+matplotlib==3.8.3
+
+# Deep learning and segmentation
 ultralytics==8.3.122
 torch==2.2.2
 torchvision==0.17.2
+
+# Image processing
+opencv-python-headless==4.9.0.80
+Pillow==10.2.0
+
+# PDF generation
 fpdf==1.7.2
-streamlit-folium==0.15.0
+
+# Safe HTTP requests (ultralytics uses this)
+requests==2.31.0
+
+# Optional: tqdm progress bars
+seaborn==0.13.2
+tqdm==4.66.2
