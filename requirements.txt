@@ -1,5 +1,6 @@
 # Essential Streamlit and UI components
-streamlit==1.31.1
+streamlit==1.10.0
+
 streamlit-folium==0.15.0
 
 # Data analysis
