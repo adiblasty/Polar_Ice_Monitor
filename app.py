@@ -69,7 +69,7 @@ if selected:
 
     if clicked_name and clicked_name in sample_images:
         st.success(f"Auto-loading sample for **{clicked_name}**")
-        st.image(sample_images[clicked_name], caption=f"{clicked_name} - Sample Image", use_container_width=True)
+        st.image(sample_images[clicked_name], caption=f"{clicked_name} - Sample Image")
 
 
     st.info(f"You selected lat={lat:.2f}, lon={lon:.2f}")
